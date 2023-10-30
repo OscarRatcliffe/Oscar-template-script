@@ -1,0 +1,16 @@
+{
+  "name": "deafult",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && cd build && node main.js && cd ..",
+    "go": "cd build && node main.js && cd .."
+  },
+  "author": "Oscar Ratcliffe",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
